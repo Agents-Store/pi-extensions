@@ -33,7 +33,6 @@ Quick test without installing: `pi -e ./.pi/extensions/deep-research-ops.ts`
 ## Not carried over
 
 - 6 command(s) — no Pi manifest equivalent
-- MCP servers — not generated for Pi
 
 ## Source
 
