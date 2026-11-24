@@ -22,7 +22,7 @@ Note: the extension resolves `skills/` two directories up from itself (`.pi/exte
 
 Quick test without installing: `pi -e ./.pi/extensions/nocodb-dev.ts`
 
-## Skills (12)
+## Skills (13)
 
 - `api-reference` — NocoDB REST API reference for schema-development work — curl on Meta API v3. Loaded only on explicit cite. Use when:
 - "NocoDB REST API"
@@ -64,6 +64,7 @@ Quick test without installing: `pi -e ./.pi/extensions/nocodb-dev.ts`
 - "how do I discover NocoDB structure?"
 - "MCP for nocodb-dev"
 
+- `permissions` — Set NocoDB table and field permissions — who may see a table, add or delete records, download data, or edit one field — as grants on top of base roles, over MCP (listPermissions, setPermission, dropPermission) or REST (/bases/{baseId}/permissions). Use when access must be narrower than the base role for one table or field. Members, teams and base roles are not covered here.
 - `setup` — Verify NocoDB connection for schema-development work — MCP and REST (curl on Meta API v3). Use when:
 - "check NocoDB dev setup"
 - "verify NocoDB API access"
